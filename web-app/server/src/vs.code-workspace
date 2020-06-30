@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../tryingcon"
+		},
+		{
+			"path": "../../../../build-blockchain-insurance-app"
+		},
+		{
+			"name": "contract",
+			"path": "../../../contract"
+		}
+	],
+	"remoteAuthority": "wsl+Ubuntu",
+	"settings": {}
+}

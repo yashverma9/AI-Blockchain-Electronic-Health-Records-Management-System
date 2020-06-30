@@ -1,0 +1,37 @@
+{
+    "certificateAuthorities": {
+        "Org2CA": {
+            "caName": "ca",
+            "url": "http://localhost:17055"
+        }
+    },
+    "client": {
+        "connection": {
+            "timeout": {
+                "orderer": "300",
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        },
+        "organization": "Org2MSP"
+    },
+    "name": "Org2",
+    "organizations": {
+        "Org2MSP": {
+            "certificateAuthorities": [
+                "Org2CA"
+            ],
+            "mspid": "Org2MSP",
+            "peers": [
+                "Org2Peer1"
+            ]
+        }
+    },
+    "peers": {
+        "Org2Peer1": {
+            "url": "grpc://localhost:17056"
+        }
+    },
+    "version": "1.0.0"
+}

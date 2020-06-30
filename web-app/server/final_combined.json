@@ -1,0 +1,56 @@
+{
+    "name": "mychannel",
+    "version": "1.0.0",
+    "description": "I maede combined",
+    "certificateAuthorities": {
+        "Org1CA": {
+            "caName": "ca",
+            "url": "http://localhost:17050"
+        },
+        "Org2CA": {
+            "caName": "ca",
+            "url": "http://localhost:17055"
+        }
+    },
+    "client": {
+        "connection": {
+            "timeout": {
+                "orderer": "300",
+                "peer": {
+                    "endorser": "300"
+                }
+            }
+        },
+        "organization": "Org1MSP"
+    },
+    
+    "organizations": {
+        "Org1MSP": {
+            "certificateAuthorities": [
+                "Org1CA"
+            ],
+            "mspid": "Org1MSP",
+            "peers": [
+                "Org1Peer1"
+            ]
+        },
+        "Org2MSP": {
+            "certificateAuthorities": [
+                "Org2CA"
+            ],
+            "mspid": "Org2MSP",
+            "peers": [
+                "Org2Peer1"
+            ]
+        }
+    },
+    "peers": {
+        "Org1Peer1": {
+            "url": "grpc://localhost:17051"
+        },
+        "Org2Peer1": {
+            "url": "grpc://localhost:17056"
+        }
+    }
+   
+}

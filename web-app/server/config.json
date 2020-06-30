@@ -1,0 +1,13 @@
+
+
+{
+    "connection_file": "final_combined.json",
+    "appAdmin_pat": "admin_pat",
+    "appAdmin_doc": "admin_doc",
+    "appAdminSecret": "adminpw",
+    "orgMSPID_pat": "Org1MSP",
+    "orgMSPID_doc": "Org2MSP",
+    "caName": "ca.org1.example.com",
+    "userName": "V1",
+    "gatewayDiscovery": { "enabled": true, "asLocalhost": true }
+  }
