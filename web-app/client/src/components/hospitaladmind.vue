@@ -1,8 +1,6 @@
 <template>
   <div>
-    <h1>{{this.patientdatas[0]}}</h1>
-    <!-- <h1>inside hospitaladmind</h1> -->
-    <h1>{{x}}</h1>
+   
 
     <!-- <div v-for = "patientdata in patientdatas" :key="patientdata.Key" >
         <h1>{{this.patientdatas.age}}</h1>
@@ -13,9 +11,10 @@
           <h1>Doctor Details</h1>
         <table style="width:100%">
           <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
+            <th>Doctor Name</th>
+            <th>Doctor Id</th>
+            <th>Doctor Phno</th>
+            <th>Doctor Age</th>
           </tr>
           <tr  v-for = "doctordata in doctordatas" :key="doctordata.Key">
            <td>{{doctordata.Record.name}}</td>
@@ -30,9 +29,10 @@
           <h1>Patient Details</h1>
         <table style="width:100%">
           <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
+            <th>Patient Name</th>
+            <th>Patient Id</th>
+            <th>Patient Phno</th>
+            <th>Patient Age</th>
           </tr>
           <tr  v-for = "patientdata in patientdatas" :key="patientdata.Key">
             <td>{{patientdata.Record.name}}</td>
@@ -176,13 +176,24 @@ console.log("outside");
 </script>
 
 <style scoped>
+ul{
+  list-style-type: none;
+}
 table,
 th,
 td {
-  /* border: 1px solid black; */
+    /* border: 1px solid black;  */
+     border-bottom: 1px solid rgb(8, 2, 2)34, 17, 17); 
   border-collapse: collapse;
 }
 
+th{
+  text-align: center;
+}
+th, td {
+  padding: 15px;
+}
+tr:hover {background-color: #f5f5f5;}
 .flex-container {
   display: flex;
   /* background-color: rgb(255, 255, 255); */

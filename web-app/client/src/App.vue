@@ -9,23 +9,23 @@
           <h1 id="hero">EHR</h1>
         </div>
         <div>
-          <router-link to="/">Home</router-link>|
+          <router-link to="/">Home</router-link>
          
           
           <div class="dropdown">
             <button class="dropbtn">Register</button>
             <div class="dropdown-content">
-            <router-link to="/RegisterPatient">Register Patient</router-link>|
-             <router-link to="/RegisterDoctor">Register Doctor</router-link>|
+            <router-link to="/RegisterPatient">Register Patient</router-link>
+             <router-link to="/RegisterDoctor">Register Doctor</router-link>
             </div>
           </div>
 
              <div class="dropdown">
             <button class="dropbtn">Login</button>
             <div class="dropdown-content">
-            <router-link to="/LoginPatient">Login Patient</router-link>|
-             <router-link to="/LoginDoctor">Login Doctor</router-link>|
-             <router-link to="/LoginHospitalAdmin">Login Hospital Admin</router-link>|
+            <router-link to="/LoginPatient">Login Patient</router-link>
+             <router-link to="/LoginDoctor">Login Doctor</router-link>
+             <router-link to="/LoginHospitalAdmin">Login Hospital Admin</router-link>
             </div>
           </div>
 
@@ -74,6 +74,11 @@ img {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: larger;
+    letter-spacing: 0.1em;
 }
 
 /* The container <div> - needed to position the dropdown content */

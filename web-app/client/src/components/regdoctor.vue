@@ -2,35 +2,39 @@
 <template>
    <div>
             <div class="regpatient">
-                <h1 >REGISTER NEW DOCTOR</h1>
-                <form  @submit="fs" enctype=multipart/form-data>
+                <h1 id="pl">REGISTER NEW DOCTOR</h1>
+                <hr>
+                <div class="formm" style="margin-left:6em; margin-top:2em;">
+                     <form  @submit="fs"  class="formm"  enctype=multipart/form-data>
                     <ul>
                         <li>
-                            <label for="fname" class="label"> Name:</label>
+                            <label for="fname" class="label"> Name:</label><br>
                             <input type="text"  v-model="doctorname"  id="fname" name="doctorname" class="inputfield"><br><br>
                         </li>
                         <li>
-                            <label for="fname" class="label">age:</label>
+                            <label for="fname" class="label">age:</label><br>
                             <input type="text"    v-model="age"   id="fname" name="age" class="inputfield"><br><br>
                         </li>
                       
                         <li>
-                            <label for="fname" class="label"> phno:</label>
+                            <label for="fname" class="label"> phno:</label><br>
                             <input type="text" id="fname"   v-model="doctorphno" name="doctorphno" class="inputfield"><br><br>
                         </li>
                          <li>
-                            <label for="fname" class="label"> License Id:</label>
+                            <label for="fname" class="label"> License Id:</label><br>
                             <input type="text" id="fname" v-model="doctorlicensenumber" name="doctorlicensenumber" class="inputfield"><br><br>
                         </li>
 
                         <li>
-                            <input type="submit" value="Submit" name="doctor"  class="signup" id="reg">
+                           
                         </li>
                     </ul>
 
-                    <h1>{{objj.Success}}</h1>
+                     <input type="submit" value="Submit" name="doctor"  class="signup" id="reg">
                 </form>
         
+                </div>
+               
             </div>
             
             
@@ -106,5 +110,53 @@ export default {
 </script>
 
 <style scoped>
+.regpatient
+{
+    background-color: white;
+    height: 480px;
+    width: 500px;
+     border-radius: 25px;
+  padding: 2em;
+    margin: 5em auto;
+  
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+
+.signup{
+    background-color: #126597; /* Green */
+  border: none;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  margin-left: 6em;
+  cursor: pointer;
+  border-radius: 12px;
+  width: 100px;
+  font-weight: bold;
+}
+#pl{
+    text-align: center;
+}
+.inputfield {
+       width: 15em;
+    padding: 0.8em;
+    /* border-radius: 0.5em; */
+    border: none;
+    border-bottom: 1px solid black;
+}
+ul{
+    list-style-type: none;
+    
+}
+.fromm{
+    
+}
+
 
 </style>

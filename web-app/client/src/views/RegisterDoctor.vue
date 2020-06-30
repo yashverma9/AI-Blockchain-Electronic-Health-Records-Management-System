@@ -1,6 +1,6 @@
 <template>
     <div class="RegisterDoctor"> 
-        <h1>doct</h1>
+        <!-- <h1>doct</h1> -->
         <regdoctor />
     </div>
 </template>
