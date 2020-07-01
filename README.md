@@ -39,4 +39,9 @@ We propose on building an AI-Blockchain Electronic Health Records system on a we
 * **IBM's Hyperledger Fabric Blockchain Platform** 
 * **MEVN Stack**
 
+### Social Impact of Project 
+
+Our system aims at easing the work of healthcare providers by securing medical data as well as by gaining important and relevant information from a patient’s medical history. By saving a lot of time and resources wasted in maintaining health records otherwise, doctors can utilize this time for better and efficient treatment of patients. Great care of patients will ultimately lead to a healthier society with first class healthcare providers. Hence our project has a great positive social and environmental impact.
+
+### Implementation Demo : 
 
