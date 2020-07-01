@@ -36,5 +36,7 @@ We propose on building an AI-Blockchain Electronic Health Records system on a we
 
 ### Tech Stacks Used
 
-* IBM's Hyperledger Fabric 
+* **IBM's Hyperledger Fabric Blockchain Platform** 
+* **MEVN Stack**
+
 
