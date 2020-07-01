@@ -45,3 +45,44 @@ Our system aims at easing the work of healthcare providers by securing medical d
 
 ### Implementation Demo : 
 
+#### 1. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
+
+#### 2. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
+
+#### 3. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
+
+#### 4. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
+
+#### 5. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
+
+#### 6. Home Page of the EHR
+<br>
+<p align="center">
+  <img src="docs/doc-gifs/demo.gif">
+</p>
+<br>
