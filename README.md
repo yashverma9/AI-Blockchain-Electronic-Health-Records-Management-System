@@ -48,41 +48,35 @@ Our system aims at easing the work of healthcare providers by securing medical d
 #### 1. Home Page of the EHR
 <br>
 <p align="center">
-  <img src="docs/doc-gifs/demo.gif">
+  <img src="gif/Home.gif">
 </p>
 <br>
 
-#### 2. Home Page of the EHR
+#### 2. Patient Home
 <br>
 <p align="center">
-  <img src="docs/doc-gifs/demo.gif">
+  <img src="gif/Patient-Login-Without-Permission.gif">
 </p>
 <br>
 
-#### 3. Home Page of the EHR
+
+#### 3. Doctor asking for permission from patient
 <br>
 <p align="center">
-  <img src="docs/doc-gifs/demo.gif">
+  <img src="gifs/Doctor-Logins-Asks-Permission.gif">
 </p>
 <br>
 
-#### 4. Home Page of the EHR
+#### 4. Patient grants permission to the doctor for the specific report
 <br>
 <p align="center">
-  <img src="docs/doc-gifs/demo.gif">
+  <img src="gif/Patient-Logins-Grants-Permission.gif">
 </p>
 <br>
 
-#### 5. Home Page of the EHR
+#### 5. Doctor view reports and summary of the reports
 <br>
 <p align="center">
-  <img src="docs/doc-gifs/demo.gif">
-</p>
-<br>
-
-#### 6. Home Page of the EHR
-<br>
-<p align="center">
-  <img src="docs/doc-gifs/demo.gif">
+  <img src="gif/Doctor-Downloads-Report.gif">
 </p>
 <br>
