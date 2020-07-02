@@ -63,7 +63,7 @@ Our system aims at easing the work of healthcare providers by securing medical d
 ### 3. Doctor asking for permission from patient
 <br>
 <p align="center">
-  <img src="gifs/Doctor-Logins-Asks-Permission.gif">
+  <img src="gif/Doctor-Logins-Asks-Permission.gif">
 </p>
 <br>
 
