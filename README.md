@@ -91,7 +91,7 @@ cd AI-Blockchain-Electronic-Health-Records-Management-System
 code .
 ```
 
-5. Open the IBM Blockchain Platform extension. Start a new fabric runtime using default template of 2 ORG, 2CA. Package the contract folder using the 'PACKAGE OPEN PROJECT' option. Now install and instantiate the smart contract on the peers. Export the connection profile to server folder and the wallets as well. <a href="https://developer.ibm.com/tutorials/ibm-blockchain-platform-vscode-smart-contract/">(Refer this for information)</a>
+5. Open the IBM Blockchain Platform extension. Start a new fabric runtime using default template of 2 ORG, 2CA. Package the contract folder using the 'PACKAGE OPEN PROJECT' option. Now install and instantiate the smart contract on the peers. Export the connection profile to server folder and the wallets as well. <a href="https://developer.ibm.com/tutorials/ibm-blockchain-platform-vscode-smart-contract/">(Refer this for more detailed steps)</a>
 
 6. Open two terminals simultaneously in VS Code.
 
