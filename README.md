@@ -3,7 +3,7 @@
 
 ## Introduction
 
-An Electronic Health Record (EHR) is an electronic version of a patient’s medical history that is maintained by a hospital or other organization over time. It includes all key administrative clinical data relevant to the patient along with all previous reports, X-rays, laboratory data, prescriptions and other forms of data describing past medical history. EHRs aren’t the boon to healthcare that everyone expected. They were introduced to make it easier for doctors to record and track patient’s data, improve care and the most important, support interoperability between multiple healthcare organizations. 
+An Electronic Health Record (EHR) is an electronic version of a patient’s medical history that is maintained by a hospital or other organization over time. It includes all key administrative clinical data relevant to the patient along with all previous reports, X-rays, laboratory data, prescriptions and other forms of data describing past medical history. EHRs aren’t the boon to healthcare that everyone expected. They were introduced to make it easier for doctors to record and track patient’s data, improve care and the most important, support interoperability between multiple healthcare .
 
 The biggest challenges are security and interoperability, which makes maintaining these records a very tedious task. Further, it is a struggle for doctors to decode important information that the patient’s previous provider recorded. Thus, it is time to develop a new system based on effectively secure decentralized blockchain and a powerful AI algorithm to ease the processes involved in healthcare.
 
