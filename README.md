@@ -43,6 +43,55 @@ We propose on building an AI-Blockchain Electronic Health Records system on a we
 
 Our system aims at easing the work of healthcare providers by securing medical data as well as by gaining important and relevant information from a patient’s medical history. By saving a lot of time and resources wasted in maintaining health records otherwise, doctors can utilize this time for better and efficient treatment of patients. Great care of patients will ultimately lead to a healthier society with first class healthcare providers. Hence our project has a great positive social and environmental impact.
 
+## How to run
+
+### Tools required:
+* VS Code Editor <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi8qoOwh67qAhX9xjgGHU1BCs4QjBAwAXoECAUQAg&url=https%3A%2F%2Fcode.visualstudio.com%2Fdownload&usg=AOvVaw11fc5fOXYIyxQh75jYLjXg">(Refer this for installation)</a>
+* IBM Blockchain Platform extension on VS code <a href="https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform">(Refer this for installation)</a>
+
+* Docker Desktop <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjvrbKEh67qAhUzzTgGHXwuB_sQFjACegQIDBAG&url=https%3A%2F%2Fdocs.docker.com%2Fdocker-for-windows%2Finstall%2F&usg=AOvVaw2zo9suoRfAYuT_3irhySPG">(Refer this for installation)</a>
+
+
+### Installation of used Libraries
+~~~
+apt-get install python-software-properties
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash –
+apt-get install nodejs
+
+npm install -g @vue/cli
+npm install axios
+npm install formidable
+
+sudo apt install python3
+pip install glob
+pip install docx2txt
+pip install networkx
+pip install sklearn
+pip install re
+pip install nltk
+pip install unicodedata
+pip install pattern3
+~~~
+
+### Steps to run
+
+1. Git Clone this repository to your system
+```
+git clone https://github.com/yashverma9/AI-Blockchain-Electronic-Health-Records-Management-System
+```
+
+2. Start Docker Desktop on your system
+
+3. In the terminal navigate to the repository directory
+```
+cd AI-Blockchain-Electronic-Health-Records-Management-System
+```
+4. Open VS Code in the same directory
+```
+code .
+```
+
+5. 
 ## Implementation Demo : 
 
 ### 1. Home Page
